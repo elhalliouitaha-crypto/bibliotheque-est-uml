@@ -1306,7 +1306,18 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Emprunt"
+					"name": "Emprunt",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGh2MCJdc0/XzU=",
+							"_parent": {
+								"$ref": "AAAAAAGh2IkjW8xyeyI="
+							},
+							"name": "dateEmprunt",
+							"type": ""
+						}
+					]
 				},
 				{
 					"_type": "UMLClassDiagram",
@@ -1635,12 +1646,32 @@
 									"model": {
 										"$ref": "AAAAAAGh2IkjW8xyeyI="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGh2MCJfs1CmVY=",
+											"_parent": {
+												"$ref": "AAAAAAGh2JsRsc0bf8s="
+											},
+											"model": {
+												"$ref": "AAAAAAGh2MCJdc0/XzU="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 541,
+											"top": 302,
+											"width": 95,
+											"height": 13,
+											"text": "+dateEmprunt",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 536,
 									"top": 297,
 									"width": 105,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1654,7 +1685,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 536,
-									"top": 307,
+									"top": 320,
 									"width": 105,
 									"height": 10
 								},
